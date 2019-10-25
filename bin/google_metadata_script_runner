@@ -1,0 +1,10 @@
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'google-compute-engine==20190916.0','console_scripts','google_metadata_script_runner'
+__requires__ = 'google-compute-engine==20190916.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('google-compute-engine==20190916.0', 'console_scripts', 'google_metadata_script_runner')()
+    )
